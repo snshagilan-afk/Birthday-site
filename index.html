@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday My Love!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="particle-container" id="particles"></div>
+    
+    <header class="hero">
+        <h1 class="glow">Happy Birthday, My Love! ❤️</h1>
+        <p>You make every day brighter and more beautiful. Today is all about celebrating you!</p>
+    </header>
+
+    <div class="content-wrapper">
+        <section class="quotes-section glass-panel">
+            <h2>💖 Reasons I Love You 💖</h2>
+            <div class="quote-card">
+                <p id="quote-text">Click below to see a reason!</p>
+            </div>
+            <button id="next-quote" class="btn">Next Reason 💌</button>
+        </section>
+
+        <section class="games-section">
+            <h2>🎮 Let's Play Something Fun! 🎮</h2>
+            
+            <div class="game-container glass-panel">
+                <h3>Game 1: Catch My Heart</h3>
+                <p>Click as many floating hearts as you can within 10 seconds. Show me your reflexes!</p>
+                <div id="heart-game-area" class="game-area">
+                    <div class="score-board">Score: <span id="heart-score" class="accent-text">0</span></div>
+                    <div class="time-board">Time left: <span id="heart-time" class="accent-text">10</span>s</div>
+                    <button id="start-heart-game" class="btn pulse-btn">Start Game</button>
+                </div>
+                <div id="heart-result" class="result-message hidden"></div>
+            </div>
+
+            <div class="game-container glass-panel">
+                <h3>Game 2: The Love Meter Calculator</h3>
+                <p>Spam the heart button to calculate exactly how much I love you (Scientifically proven accurate algorithms)!</p>
+                <div class="meter-game-area">
+                    <div class="meter-bar-container">
+                        <div class="meter-bar" id="love-meter-fill"></div>
+                    </div>
+                    <div class="meter-score glow-small" id="love-amount">0%</div>
+                    <button id="spam-btn" class="spam-btn">❤️ TAP ME FAST ❤️</button>
+                </div>
+                <div id="meter-result" class="result-message hidden"></div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Made with endless love for you. Forever yours. ♾️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
